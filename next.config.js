@@ -16,5 +16,14 @@
 // }
 
 module.exports = {
-  trailingSlash: true
+  exportTrailingSlash: true,
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
+  images: {
+    loader: 'imgix',
+    path: 'C:\Users\HP\Documents\my-app\public',
+  },
 };
